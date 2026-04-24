@@ -1,5 +1,4 @@
 <?php
-// ── cancel_registration.php ───────────────────────────────
 require_once 'auth.php';
 require_once 'db.php';
 require_role('participant');

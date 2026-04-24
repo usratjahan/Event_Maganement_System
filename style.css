@@ -1,12 +1,7 @@
-/* ============================================================
-   Event Management System — style.css
-   Aesthetic: Editorial / Professional Dark-Accented
-   Fonts: DM Sans (body) + Playfair Display (headings)
-   ============================================================ */
+
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap');
 
-/* ── CSS Variables ──────────────────────────────────────── */
 :root {
   --bg:          #f7f6f2;
   --surface:     #ffffff;
@@ -30,7 +25,6 @@
   --transition:  0.18s ease;
 }
 
-/* ── Reset & Base ────────────────────────────────────────── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 html { font-size: 16px; scroll-behavior: smooth; }

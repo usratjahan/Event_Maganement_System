@@ -1,10 +1,5 @@
 <?php
-// ── auth.php ──────────────────────────────────────────────
-// Include at the top of every protected page.
-// Usage:
-//   require_once 'auth.php';            // any logged-in user
-//   require_once 'auth.php'; require_role('organizer');   // organizers only
-// ──────────────────────────────────────────────────────────
+
 if (session_status() === PHP_SESSION_NONE) session_start();
 
 if (!isset($_SESSION['user_id'])) {
